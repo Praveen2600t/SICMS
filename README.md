@@ -7,6 +7,8 @@
 [![Tailwind CSS 4](https://img.shields.io/badge/Tailwind-CSS%204-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
 [![Deployment](https://img.shields.io/badge/Deploy-Vercel%20%2F%20GitHub-black?logo=vercel)](https://vercel.com/)
 
+> **SICMS** (Smart Inventory Continuous Monitoring System) is an intelligent web-based inventory management platform featuring real-time stock monitoring, batch expiry tracking, automated alerts, supplier management, sales tracking, and analytics. Developed by **Praveen & Prithika** as an **IBM project**.
+
 ---
 
 ## 1. Overview & Architecture
@@ -60,8 +62,8 @@ The autonomous rule engine evaluates after every stock modification and whenever
 ### Setup & Run
 ```bash
 # 1. Clone repository
-git clone https://github.com/Praveen2600t/SIMS.git
-cd SIMS
+git clone https://github.com/Praveen2600t/SICMS.git
+cd SICMS
 
 # 2. Install dependencies
 npm install
@@ -78,13 +80,13 @@ Open **[http://localhost:3000](http://localhost:3000)** in your browser.
 ### Deploy to GitHub
 ```bash
 git add -A
-git commit -m "feat: complete all-in-one inventory surveillance system"
+git commit -m "feat: complete SICMS inventory monitoring system"
 git push origin main
 ```
 
 ### Deploy to Vercel (1-Click)
 1. Log in to [Vercel](https://vercel.com).
-2. Click **Add New... > Project** and import your GitHub repository (`Praveen2600t/SIMS`).
+2. Click **Add New... > Project** and import your GitHub repository (`Praveen2600t/SICMS`).
 3. Vercel automatically detects the Vite preset:
    - **Framework Preset:** `Vite`
    - **Build Command:** `npm run build`
